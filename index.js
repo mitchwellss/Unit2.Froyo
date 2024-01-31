@@ -9,21 +9,19 @@ console.log(flavorList)
 flavorSum = 0;
 
     // itarate through array of flavor
-for (const flavorType = 0; flavorType <= flavorList.length; flavorType++) {
-    flavorSum += flavorType[flavorType]
+for (const item = 0; item <= flavorList.length; flavorType++) {
+    flavorSum += flavorList[item]
 }
-
 
 console.table(flavorSum)
 
+function froyoCount (flavorSum) {
+    // check how many time an item appear in a list and record insde a variable
+}
+
 // object referencing array of flavor
-const froyoCount = {}
-// const froyoCount = {
-//     vanilla: 
-//     strawberry: 
-//     coffee:
-   
-// }  
+const flavorType  = {}
+
 
 // console.log(flavor)
 
@@ -31,8 +29,8 @@ const froyoCount = {}
 orderList = Object.values(froyo);
 orderSum = 0;
 
-for (const flavor in orderList) {
-    order += 
-}
+// for (const flavor in orderList) {
+//     order += 
+// }
 
 
